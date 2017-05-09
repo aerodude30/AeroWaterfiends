@@ -86,8 +86,8 @@ public class ScriptManager  {
             BufferedImage bufferedImage = robot.createScreenCapture(captureSize);
             ImageIO.write(bufferedImage, "png", new File(path + "/img_"+ queueInfo.get("SessionID")));
 
-            client.connect("ftp.aeroscripts.x10.bz");
-            client.login("aerodude30@aeroscripts.x10.bz", "1qazxcvb");
+            client.connect("*******");
+            client.login("*******", "*********");
             client.enterLocalPassiveMode();
             System.out.println(client.getReplyString());
 
